@@ -1,0 +1,14 @@
+PORT=Puerto en donde se ejecutara el backend
+MONGO_DB_URL=utilizamos mongo atlas como base de datos, aqui se pondria la url que te dan
+JWT_SECRET=puede ser cualquier valor, de preferencia algo complicado y random
+
+#para integrar paypal es necesario crear una cuenta aqui https://sandbox.braintreegateway.com/login y poner las credenciales que te da pero tambien deberas conextar tu cuenta de paypal aqui  https://developer.paypal.com/dashboard/accountStatus
+BRAINTREE_MERCHANT_ID=MERCHANT_ID
+BRAINTREE_PUBLIC_KEY=PUBLIC_KEY
+BRAINTREE_PRIVATE_KEY=PRIVATE_KEY
+
+#para permitir el envio de emails es necesario que te registres en esta pagina https://app.sendgrid.com/ y pongas las credenciales que te dan asi como el correo que registraste como emisor
+SENDGRID_KEY=SENDGRID_KEY
+EMAIL_FROM=emisor
+#url donde se esta ejecutando el frontend
+CLIENT_URL=http://localhost:3000  
